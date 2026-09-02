@@ -243,3 +243,32 @@
 .custom-accordion .accordion-item:hover {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08) !important;
 }
+/* Testimonials Background & Blue Overlay */
+/* Testimonials Background & Blue Overlay */
+.testimonials {
+  background-image: url('../img/testimonials-bg.jpg'); /* تأكد من وجود صورة خلفية المباني هنا */
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.testimonials .overlay-mf {
+  background-color: #0078ff;
+  opacity: 0.7;
+}
+
+/* Custom Dots Style */
+.testimonials .carousel-indicators [data-bs-target] {
+  width: 12px;
+  height: 12px;
+  margin: 0 5px;
+  background-color: #fff;
+  opacity: 0.5;
+  border: none;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.testimonials .carousel-indicators .active {
+  opacity: 1;
+  transform: scale(1.25);
+}
