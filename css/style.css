@@ -215,3 +215,31 @@
 .pricing .price-val {
   color: #0078ff !important;
 }
+/* Custom Accordion Styling */
+.custom-accordion .accordion-button {
+  color: #212529;
+  box-shadow: none !important;
+  transition: color 0.3s ease;
+}
+
+/* Open Accordion State (Blue Text & Icon) */
+.custom-accordion .accordion-button:not(.collapsed) {
+  color: #0078ff !important;
+  background-color: #fff !important;
+}
+
+/* Change Icon Color when Opened */
+.custom-accordion .accordion-button:not(.collapsed)::after {
+  filter: invert(36%) sepia(85%) saturate(3028%) hue-rotate(200deg)
+    brightness(101%) contrast(106%);
+}
+
+.custom-accordion .accordion-item {
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.custom-accordion .accordion-item:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08) !important;
+}
