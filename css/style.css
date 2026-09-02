@@ -123,3 +123,27 @@
 .services .service-box:hover h3 a {
   color: #0078ff !important;
 }
+/* Stats Section Background & Overlay */
+.section-counter {
+  background-image: url("../img/stats-bg.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.section-counter .overlay-mf {
+  background-color: #0078ff;
+  opacity: 0.7;
+}
+
+/* Sizing Adjustments (Smaller Icon Circles) */
+.counter-ico .ico-circle {
+  height: 60px;
+  width: 60px;
+}
+
+/* Smaller Font Sizes for Text */
+.counter-text {
+  font-size: 0.85rem;
+  letter-spacing: 0.5px;
+}
