@@ -83,7 +83,43 @@
   border: 2px solid #0078ff;
 }
 
-/* Remove bottom border line for the last item in a group */
 .resume .resume-item:last-child {
   border-left: 2px solid transparent !important;
+}
+/* Line Under Title */
+.services .line-mf {
+  width: 40px;
+  height: 3px;
+  background-color: #0078ff;
+}
+
+/* Icon Circle Styling */
+.services .ico-circle {
+  height: 60px;
+  width: 60px;
+  background-color: #0078ff;
+  border-radius: 50%;
+  transition: all 0.4s ease;
+}
+
+/* Card Box Style & Border Accent Effect */
+.services .service-box {
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+  border-bottom: 3px solid transparent;
+}
+
+.services .service-box:hover {
+  transform: translateY(-7px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1) !important;
+  border-bottom-color: #0078ff;
+}
+
+.services .service-box h3 a {
+  transition: color 0.3s ease;
+}
+
+.services .service-box:hover h3 a {
+  color: #0078ff !important;
 }
