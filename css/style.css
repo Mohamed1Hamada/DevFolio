@@ -169,24 +169,21 @@
   color: #0078ff;
 }
 
-
 .portfolio-item .portfolio-img img {
   width: 100%;
-  height: auto;         
-  object-fit: contain;    
+  height: auto;
+  object-fit: contain;
   display: block;
   transition: transform 0.9s ease;
 }
 
-
 .portfolio-item .portfolio-img {
-  min-height: 250px;     
+  min-height: 250px;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #f8f9fa; 
+  background-color: #f8f9fa;
 }
-
 
 .portfolio-info {
   opacity: 0;
@@ -198,5 +195,23 @@
 }
 
 .portfolio-links a:hover {
+  color: #0078ff !important;
+}
+/* Pricing Section Underline */
+.pricing .line-mf {
+  width: 40px;
+  height: 3px;
+  background-color: #0078ff;
+}
+
+/* Dotted Border Style */
+.border-dotted {
+  border-bottom-style: dotted !important;
+  border-bottom-color: #ccc !important;
+  border-bottom-width: 2px !important;
+}
+
+/* Price Color Styling */
+.pricing .price-val {
   color: #0078ff !important;
 }
