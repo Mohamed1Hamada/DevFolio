@@ -1,7 +1,6 @@
-/* Hero Section Formatting */
 .hero-section {
   min-height: 100vh;
-  /* المزيج ده بيعمل Overlay أسود شفاف فوق الصورة + بيحط خلفية سوداء احتياطية لو الصورة مش موجودة */
+
   background:
     linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url("../img/hero-img.jpg") center/cover no-repeat fixed #000;
@@ -33,7 +32,7 @@
 .dropdown-menu .dropdown-item::before {
   display: none;
 }
-/* About Section Styles */
+
 .about-mf .box-shadow-full {
   background-color: #fff;
   box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
@@ -63,14 +62,13 @@
   font-size: 0.9rem;
   font-weight: 500;
 }
-/* Section Title Underline */
+
 .resume .line-mf {
   width: 40px;
   height: 3px;
   background-color: #0078ff;
 }
 
-/* Timeline Item Circle Effect */
 .resume .resume-item::before {
   content: "";
   position: absolute;
@@ -86,14 +84,13 @@
 .resume .resume-item:last-child {
   border-left: 2px solid transparent !important;
 }
-/* Line Under Title */
+
 .services .line-mf {
   width: 40px;
   height: 3px;
   background-color: #0078ff;
 }
 
-/* Icon Circle Styling */
 .services .ico-circle {
   height: 60px;
   width: 60px;
@@ -102,7 +99,6 @@
   transition: all 0.4s ease;
 }
 
-/* Card Box Style & Border Accent Effect */
 .services .service-box {
   transition:
     transform 0.3s ease,
@@ -123,7 +119,7 @@
 .services .service-box:hover h3 a {
   color: #0078ff !important;
 }
-/* Stats Section Background & Overlay */
+
 .section-counter {
   background-image: url("../img/stats-bg.jpg");
   background-position: center center;
@@ -142,20 +138,17 @@
   width: 60px;
 }
 
-/* Smaller Font Sizes for Text */
 .counter-text {
   font-size: 0.85rem;
   letter-spacing: 0.5px;
 }
-/* Portfolio Underline */
-/* Portfolio Line */
+
 .portfolio .line-mf {
   width: 40px;
   height: 3px;
   background-color: #0078ff;
 }
 
-/* Portfolio Filter Tabs */
 .portfolio-filters li {
   cursor: pointer;
   font-size: 0.85rem;
@@ -197,38 +190,34 @@
 .portfolio-links a:hover {
   color: #0078ff !important;
 }
-/* Pricing Section Underline */
+
 .pricing .line-mf {
   width: 40px;
   height: 3px;
   background-color: #0078ff;
 }
 
-/* Dotted Border Style */
 .border-dotted {
   border-bottom-style: dotted !important;
   border-bottom-color: #ccc !important;
   border-bottom-width: 2px !important;
 }
 
-/* Price Color Styling */
 .pricing .price-val {
   color: #0078ff !important;
 }
-/* Custom Accordion Styling */
+
 .custom-accordion .accordion-button {
   color: #212529;
   box-shadow: none !important;
   transition: color 0.3s ease;
 }
 
-/* Open Accordion State (Blue Text & Icon) */
 .custom-accordion .accordion-button:not(.collapsed) {
   color: #0078ff !important;
   background-color: #fff !important;
 }
 
-/* Change Icon Color when Opened */
 .custom-accordion .accordion-button:not(.collapsed)::after {
   filter: invert(36%) sepia(85%) saturate(3028%) hue-rotate(200deg)
     brightness(101%) contrast(106%);
@@ -243,10 +232,9 @@
 .custom-accordion .accordion-item:hover {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08) !important;
 }
-/* Testimonials Background & Blue Overlay */
-/* Testimonials Background & Blue Overlay */
+
 .testimonials {
-  background-image: url("../img/testimonials-bg.jpg"); /* تأكد من وجود صورة خلفية المباني هنا */
+  background-image: url("../img/testimonials-bg.jpg");
   background-position: center center;
   background-size: cover;
   background-attachment: fixed;
